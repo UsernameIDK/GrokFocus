@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GrokFocus",
+  "version": "1.0",
+  "description": "Removes distracting Twitter social stuff when on x.com/i/grok",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/i/grok*"],
+      "js": ["content.js"]
+    }
+  ]
+}
